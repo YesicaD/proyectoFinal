@@ -1,0 +1,68 @@
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(90deg, rgb(29, 190, 253) 5%, $celeste66);
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+p {
+  color: rgb(2, 96, 139);
+}
+
+.carta img {
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.img-carta img:hover {
+  transform: scale(1.1);
+}
+
+.card-container {
+  margin-top: 2rem;
+}
+
+.card-img-top {
+  width: 10%;
+}
+
+.img-carta img {
+  border-radius: 30px;
+}
+
+.img-compras {
+  width: 100%;
+  height: 80%;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.card-compras img:hover {
+  transform: scale(1.1);
+}
+
+.card-compras {
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgba(241, 85, 137, 0.424) 5%,
+    rgba(165, 24, 89, 0.219) 66%
+  );
+  text-align: center;
+  width: 18rem;
+  margin-bottom: 1rem;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.card-body__p {
+  color: rgb(126, 126, 126);
+}

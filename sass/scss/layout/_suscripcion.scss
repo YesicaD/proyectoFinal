@@ -1,0 +1,45 @@
+.titulosFormulario {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 20px;
+  padding: 10px 10px;
+  color: rgb(255, 113, 113);
+}
+
+.bordesTabla1 {
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(240, 220, 47);
+  border-style: double;
+  margin: 10px;
+  padding: 10px;
+}
+
+.estiloBoton {
+  color: rgb(10, 87, 110);
+  margin-top: 20px;
+  justify-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(29, 253, 241, 1) 5%,
+    $celeste66,
+    rgba(23, 224, 255, 1) 100%
+  );
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.labelBlock {
+  display: block;
+  margin-top: 20px;
+  justify-content: center;
+  margin: 0 auto;
+
+  &__span {
+    margin-right: 15px;
+  }
+}
+
+.radioInput {
+  display: block;
+}

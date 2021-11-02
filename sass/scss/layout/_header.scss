@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: rgb(12, 12, 11);
+}
+
+nav ul {
+  display: none;
+  list-style: none;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li :hover {
+  background-color: rgb(246, 248, 130);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}

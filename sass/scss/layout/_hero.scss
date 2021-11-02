@@ -1,0 +1,52 @@
+.padre1 {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-image: url("../../../media/fondoPrincipal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.padre1 > * {
+  text-align: center;
+}
+
+.padre2 {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+}
+
+.containerInicio {
+  display: grid;
+  place-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoInicio {
+  color: rgb(255, 31, 61);
+  background-color: rgba(255, 255, 255, 0.726);
+  padding: 20px;
+  border-radius: 4%;
+  align-content: center;
+  text-align: center;
+}
+
+.navbar-light .navbar-brand {
+  color: $brandRed;
+}
+
+.bienvenida {
+  color: rgb(1, 216, 224);
+  padding: 10px;
+  margin: 15px;
+  margin-top: 80px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgb(5, 104, 150);
+}

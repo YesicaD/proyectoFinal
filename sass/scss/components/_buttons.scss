@@ -1,0 +1,32 @@
+button {
+  margin: 0 auto;
+  color: rgb(10, 87, 110);
+  margin-top: 30px;
+  justify-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(29, 253, 241, 1) 5%,
+    $celeste66,
+    rgba(23, 224, 255, 1) 100%
+  );
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.deciloGift {
+  margin: 20px;
+}
+
+.btn-compras {
+  background-color: rgb(21, 191, 233);
+  color: rgb(255, 255, 255);
+}
+
+.btn :hover {
+  color: rgb(204, 4, 97);
+}
+
+.btn-enviar {
+  margin: auto;
+}
