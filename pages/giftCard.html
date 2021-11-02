@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Monoblock</title>
+    <link rel="stylesheet" href="../sass/css/style.css">
+    <meta name="keywords"
+        content="tarjetas de regalo, regalos, festejo, comprar, diseño, ilustración, librería, objetos de diseño, arte, tienda, diseño gráfico, libros argentinos, agendas, cuadernos, envíos">
+    <meta name="description" content="Enviamos a la persona que elijas un regalo de diseño original.">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Monoblock</a>
+                <button class=" navbar-toggler me-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav aling-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/suscripcion.html">Suscripción</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/giftCard.html">Gift Cards</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/libros.html">Libros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="text-center">
+        <h1>Festejá de manera especial con los que tanto querés.<br>
+            De manera fácil, enviá una tarjeta de regalo.</h1>
+        <img class="img-coleccion card-img-top" src="../media/regalo-de-bodas.png" alt="icono de regalo">
+        <form class="row gx-3 gy-2">
+            <div class="gift container">
+                <div class="justify-content-center">
+                    <p>¿Cómo y cuándo lo querés enviar?</p>
+                    <select class="estiloBoton" name="Beneficios">
+                        <option value="Elige una opción">Elige una opción</option>
+                        <option value="email">email</option>
+                        <option value="tienda online">tienda online</option>
+                    </select>
+                </div>
+                <div class="justify-content-center">
+                    <label for="Fecha">
+                        <input class="estiloBoton" type="date" id="Fecha">
+                    </label>
+                </div>
+            </div>
+        </form>
+    </main>
+    <section id="productos" class="objetos container">
+        <h2 class="lead text-center">¡Elegí tu regalo!</h2>
+        <div class="padre2 row">
+            <div class="carta col-md-4">
+                <h3>Cuaderno Macanudo</h3>
+                <div class="img-carta">
+                    <img src="../media/macanudo.jpeg" alt="">
+                    <p>$2200</p>
+                </div>
+            </div>
+            <div class="carta col-md-4">
+                <h3>Agenda Tute</h3>
+                <div class="img-carta">
+                    <img src="../media/tute.jpeg" alt="">
+                    <p>$2890</p>
+                </div>
+            </div>
+            <div class="carta col-md-4">
+                <h3>Agenda Happyness</h3>
+                <div class="img-carta">
+                    <img src="../media/happy.jpeg" alt="">
+                    <p>$3090</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="deciloGift">
+            <h3>Comunicá lo que querés decirle a esa persona</h3>
+            <p>¡Decilo con palabras!</p>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Dejá tu mensaje" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary btn-enviar" type="button" id="button-addon2">Enviar</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer__p">Copyright © 2011 Monoblock
+            <br>
+            Industry of Imagineering and their authors.
+            <br>
+            All rights reserved.
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
